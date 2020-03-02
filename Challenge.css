@@ -1,0 +1,59 @@
+h1 {
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 60px;
+}
+
+body {
+    flex-basis: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flexbox;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: rgb(94, 91, 93);
+}
+
+.calc {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 60%;
+    max-width: 480px;
+}
+
+.calc>* {
+    margin: auto;
+}
+
+input[type=number] {
+    border-radius: 6px;
+    border: rgb(49, 48, 48) 1px;
+    padding: 8px 8px;
+    box-sizing: inherit;
+}
+
+#output {
+    flex-basis: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    order: 2;
+}
+
+#output>* {
+    padding: 6px 0;
+    flex-basis: 35%;
+    flex-wrap: wrap
+}
+
+input[type=submit] {
+    flex-basis: 100%;
+    border-radius: 0px;
+    font-size: 24px;
+    color: black;
+}
+
+footer {
+    background-color: rgb(213, 213, 248);
+    color: black;
+    width: 100%;
+    text-align: center;
+}
