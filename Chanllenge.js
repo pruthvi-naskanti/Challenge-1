@@ -1,12 +1,11 @@
 function Check() {
-    let total = parseFloat(document.getElementById("total").value);
+    let total = parseFloat(document.getElementById("Stories").value);
     console.log(typeof total);
-    let rate = parseFloat(document.getElementById("rate").value);
+    let rate = parseFloat(document.getElementById("Sketches").value);
 
 
 
-    document.getElementById("tip").innerHTML = "$" + total * rate / 100;
-    document.getElementById("tax").innerHTML = "$" + total * 5.50 / 100;
-    document.getElementById("grandtotal").innerHTML = "$" + (total + (total * rate / 100) + (total * 5.50 / 100));
+
+    document.getElementById("Total no.of Sketches").innerHTML = "$" + (Stories * Sketches);
     return false;
 }
