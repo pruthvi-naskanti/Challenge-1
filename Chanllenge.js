@@ -1,7 +1,7 @@
 function Check() {
-    let total = parseFloat(document.getElementById("Stories").value);
-    console.log(typeof total);
-    let rate = parseFloat(document.getElementById("Sketches").value);
+    let Stories = parseFloat(document.getElementById("Stories").value);
+    console.log(typeof Stories);
+    let Sketches = parseFloat(document.getElementById("Sketches").value);
 
 
 
